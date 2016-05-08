@@ -62,7 +62,7 @@ void draw() {
     line(posXban+anchuraBan, posYban, posXban+anchuraBan, posYban+40);*/
     //text("Vidas:"+life+ "vidas", 20, 30);
     image(photoband,posXban,posYban);
-    image(photoband,posXban+
+    image(photoband,posXban+anchuraBan,posYban);
     if  ( posXban< posEsq-30 && posEsq +30 < posXban+ anchuraBan && posYban+20 == 422) {
       score = score+5;
     } else if ( posYban+20 == 422) {
